@@ -1,0 +1,131 @@
+@media only screen and (max-width: 375px) 
+{
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+    .Map-img {
+        display: none;
+    }
+    .Location-first-div {
+        width: 375px;
+        height: 550px;
+        background-image: url(Bitmap.png);
+    }
+    .Back-button {
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+    }
+    .Icon-img {
+        position: absolute;
+        margin-top: 231px;
+        margin-left: 155px;
+    }
+    .Back-home {
+        width: 208px;
+        height: 72px;
+        background-color: #151515;
+    }
+    .Location-h4 {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        margin-top: 24px;
+        margin-left: 32px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+    }
+    .Arrow-left {
+        width: 56px;
+        height: 72px;
+        background-color: #D5966C; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Location-black-div {
+        width: 375px;
+        height: 493px;
+        background-color: #151515;
+        display: flex;
+        flex-direction: column;
+    }
+    .Location-h1{
+        width: 343px;
+        height: 45px;
+        font-size: 35px;
+        line-height: 45px;
+        color: white;
+        font-family: 'Big Shoulders Display';
+        font-style: black;
+        font-weight: 900;
+        margin-left: 16px;
+        margin-top: 40px;
+    }
+    .Black-div-h4 {
+        width: 343px;
+        height: 32px;
+        font-size: 26px;
+        line-height: 36px;
+        color: #D5966C;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        margin-left: 16px;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    .Black-div-p1 {
+        font-size: 20px;
+        line-height: 32px;
+        color: white;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        margin-left: 16px;
+        
+    }
+    .Black-div-p2 {
+        width: 343px;
+        height: 140px;
+        font-size: 19px;
+        line-height: 32px;
+        color: white;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+    .Location-footer {
+        width: 375px;
+        height: 336px;
+        background-color: #D5966C;
+        display: flex;
+        flex-direction: column;
+    }
+    .Location-h3 {
+        width: 110px;
+        height: 40px;
+        color: #151515;
+        font-size: 22px;
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+    .Location-p {
+        width: 311px;
+        height: 104px;
+        font-family: 'Outfit';
+        font-style: 'Light';
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 32px;
+        margin-top: 60px;
+    }
+    .Div-icons {
+        margin-left: 32px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+}
